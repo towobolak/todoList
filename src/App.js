@@ -35,6 +35,7 @@ function App() {
       <TodoForm addTodo={addTodo} />
       <TodoList todos={todos} toggleComplete={toggleComplete} removeTodo={removeTodo} />
     </div>
+    
   );
 }
 
