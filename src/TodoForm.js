@@ -13,7 +13,7 @@ function TodoForm({ addTodo }) {
   return (
     <form className='formM' onSubmit={handleSubmit}>
         <div className='inin'>
-            <input className='input1' type="text" value={value} onChange={(e) => setValue(e.target.value)} placeholder="Add todo here..."/>
+            <input id='input1' className='input1' type="text" value={value} onChange={(e) => setValue(e.target.value)} placeholder="Click here to add plan here..."/>
         </div>
         <div className='btnAdd'>
             <button className='btn1' type="submit">Add</button>

@@ -24,10 +24,11 @@ function App() {
     setTodos(newTodos);
   };
 
+
   return (
     <div className="app">
       <div className='header'>
-        <h2>Olakunle's Todo</h2>
+        <h2>Today</h2>
         <p>What needs to be done?</p>
       </div>
 

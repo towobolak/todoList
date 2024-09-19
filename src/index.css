@@ -25,9 +25,10 @@ code {
     padding-right: 25px;
   }
   .app .header{
-    text-align: center;
+    text-align: left;
     line-height: 1.5;
-    margin-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
   }
   .formM{
     display: grid;
@@ -35,16 +36,21 @@ code {
   .formM .inin .input1{
   width: 100%;
   margin-bottom: 4px;
-  padding: 5px;
+  padding: 8px;
+  border-radius: 32px;
+  border: transparent;
+  color: white;
+  background: linear-gradient(to right, skyblue, rgba(49, 49, 250, 0.631));
   }
   .formM .btnAdd .btn1{
     width: 100%;
-    padding: 5px;
-    background: skyblue;
+    padding: 15px;
+    background: linear-gradient(to left, skyblue, rgba(49, 49, 250, 0.631));
     border: 0.5px solid;
-    border-radius: 4px;
+    border-radius: 32px;
     font-size: 14px;
     font-weight: 505;
+    margin-top: 10px;
     transition: ease-in 3ms;
     
   }
@@ -55,14 +61,15 @@ code {
   .itemList{
     text-align: center;
     line-height: 1.8;
-    background: rgb(195, 240, 195);
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Equal offset for both x and y axes to surround the border */
     list-style-type: none;
-    border-radius: 4px;
-    margin-bottom: 5px;
-    padding-left: 2px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
     display: flex;
     width: 100%;
-    margin-top: 6px;
+    margin-top: 15px;
     }
   .itemList .itList{
     text-align: left;
@@ -70,8 +77,8 @@ code {
     padding: 2px;
   }
   .itemList .delete{
-    background: rgb(234, 225, 248);
-    border: 0,5px solid gray;
+    background: rgb(63, 111, 254);
+    border: 1px solid;
     border-radius: 6px;
     padding: 3px;
     margin-right: 5px;
@@ -86,8 +93,8 @@ code {
     margin-top: 10%;
     margin-left: 5%;
     margin-right: 5%;
-    background: rgba(242, 253, 119, 0.453);
-    border-radius: 6px;
+    background: rgb(255, 255, 255);
+    border-radius: 32px;
     padding-bottom: 10px;
     
   }
@@ -100,9 +107,10 @@ code {
     padding-right: 25px;
   }
   .app .header{
-    text-align: center;
+    text-align: left;
     line-height: 1.5;
-    margin-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
   }
   .formM{
     display: grid;
@@ -110,17 +118,23 @@ code {
   .formM .inin .input1{
   width: 100%;
   margin-bottom: 4px;
-  padding: 5px;
+  padding: 8px;
+  border-radius: 32px;
+  border: transparent;
+  color: white;
+  background: linear-gradient(to right, skyblue, rgba(49, 49, 250, 0.631));
   }
   .formM .btnAdd .btn1{
     width: 100%;
-    padding: 5px;
-    background: skyblue;
+    padding: 15px;
+    background: linear-gradient(to left, skyblue, rgba(49, 49, 250, 0.631));
     border: 0.5px solid;
-    border-radius: 4px;
+    border-radius: 32px;
     font-size: 14px;
     font-weight: 505;
+    margin-top: 10px;
     transition: ease-in 3ms;
+    
   }
   .formM .btnAdd .btn1:hover{
     cursor: pointer;
@@ -129,23 +143,24 @@ code {
   .itemList{
     text-align: center;
     line-height: 1.8;
-    background: rgb(195, 240, 195);
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Equal offset for both x and y axes to surround the border */
     list-style-type: none;
-    border-radius: 4px;
-    margin-bottom: 5px;
-    padding-left: 2px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
     display: flex;
     width: 100%;
-    margin-top: 6px;
+    margin-top: 15px;
     }
   .itemList .itList{
     text-align: left;
-    width: 730px;
+    width: 330px;
     padding: 2px;
   }
   .itemList .delete{
-    background: rgb(234, 225, 248);
-    border: 0,5px solid gray;
+    background: rgb(63, 111, 254);
+    border: 1px solid;
     border-radius: 6px;
     padding: 3px;
     margin-right: 5px;
@@ -160,8 +175,9 @@ code {
     margin-top: 5%;
     margin-left: 35%;
     margin-right: 35%;
-    background: rgba(242, 253, 119, 0.453);
-    border-radius: 6px;
+    background: rgb(255, 255, 255);
+    border-radius: 32px;
     padding-bottom: 10px;
+    
   }
 }
