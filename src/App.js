@@ -26,7 +26,11 @@ function App() {
 
   return (
     <div className="app">
-      <h1>TODO List</h1>
+      <div className='header'>
+        <h2>Olakunle's Todo</h2>
+        <p>What needs to be done?</p>
+      </div>
+
       <TodoForm addTodo={addTodo} />
       <TodoList todos={todos} toggleComplete={toggleComplete} removeTodo={removeTodo} />
     </div>
