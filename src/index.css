@@ -46,6 +46,7 @@ code {
     font-size: 14px;
     font-weight: 505;
     transition: ease-in 3ms;
+    
   }
   .formM .btnAdd .btn1:hover{
     cursor: pointer;
